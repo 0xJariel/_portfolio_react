@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Subway";
+  src: url("./fonts/Subway-Black.ttf") format(truetype);
+}
+
+:root {
+  /* variables for all components */
+  --active-color: #2b2c2b;
+  --inactive-color: #2b2c2b40;
+  --background-color-light: #f3f5f2;
+  --logo-font-size: 40px;
+  --heading-font-size: 34px;
+  --h1-size: 48px;
+  --h1-weight: medium;
+  --h1-letter-spacing: 2%;
+  --h1-word-spacing: 2px;
+  --p-text-size: 28px;
+  --foreground-text-color: #3b3c3b;
+  --p-line-height: 135%;
+
+  --background-text-size: 26px;
+  --background-text-color: #3b3c3b45;
+  --background-text-style: italic;
+  --background-text-stretch: condensed;
+  --background-text-weight: 300;
+
+  --section-number-family: "Subway";
+  --section-number-size: 52px;
+  --section-number-color-light: var(--background-color-light);
+
+  --font-family: "Roboto";
+
+  --padding-sides: 115px;
+  --header-font-family: "Subway";
+}
+
+body {
+  font-family: "Roboto";
+  background-color: var(--background-color-light);
+  color: var(--active-color);
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-weight: var(--h1-weight);
+  font-size: var(--h1-size);
+  letter-spacing: var(--h1-letter-spacing);
+  word-spacing: var(--h1-word-spacing);
+}
+
+p {
+  font-weight: 400;
+  line-height: 136%;
+  font-size: 1.75rem;
+}
+
+.extended-p {
+  font-weight: 300;
+  line-height: 136%;
+  font-style: italic;
+  font-size: 1.625rem;
+}

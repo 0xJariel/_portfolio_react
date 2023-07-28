@@ -1,10 +1,13 @@
 import { styled } from "styled-components";
+import Carousel from "./Carousel";
 
 const Highlights = () => {
   return (
     <HighlightsSection>
       <h1 className="heading">Project Highlights</h1>
-      <div className="carousel"></div>
+      <div className="carousel">
+        <Carousel />
+      </div>
       <div className="skills">
         <div className="example-skill"></div>
         <div className="example-skill"></div>
@@ -25,10 +28,15 @@ const HighlightsSection = styled.section`
   height: 100vh;
   justify-items: center;
 
+  .heading {
+    background-color: gray;
+  }
+
   .carousel {
     display: grid;
     background-color: red;
     width: 100%;
+    height: 400px;
   }
 
   .skills {

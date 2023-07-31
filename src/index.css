@@ -60,3 +60,7 @@ p {
   font-style: italic;
   font-size: 1.625rem;
 }
+
+.box {
+  transition: all 0.5s;
+}
